@@ -1,5 +1,8 @@
-runtime: java
-env: flex
+  
+runtime: java11
+
+service: default
+
 handlers:
- - url: /.*
- script: this field is required, but ignored
+- url: /.*
+  script: this field is required, but ignored
