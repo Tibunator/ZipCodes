@@ -2,8 +2,8 @@
 # Backend Coding Challenge
 
 #URL To conosume Service
-- https://zipcodes-272800.appspot.com/ZipCode to get All ZipCodes 
-- https://zipcodes-272800.appspot.com/ZipCode/id where id is the zipcode id it will only return 1 zipcode
+- https://zipcodestest.uc.r.appspot.com/ZipCodes to get All ZipCodes 
+- https://zipcodestest.uc.r.appspot.com/ZipCodes/id where id is the zipcode id it will only return 1 zipcode
 
 #Tools used:
 - VSCode(Spring boot plugin)
