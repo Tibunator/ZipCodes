@@ -1,5 +1,5 @@
   
-runtime: java11
+runtime: java8
 
 service: default
 
