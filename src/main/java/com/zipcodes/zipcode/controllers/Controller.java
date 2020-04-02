@@ -18,7 +18,10 @@ import org.springframework.web.bind.annotation.PathVariable;
 public class Controller {
     @Autowired
     private IZipCodeService zipCodeService;
-
+    @GetMapping("/")
+    public String hello() {
+        return "hello this is the APi!";
+    }
     @GetMapping(value = "/ZipCodes")
     public List<ZipCode> GetAll() {
         return zipCodeService.findAll();
