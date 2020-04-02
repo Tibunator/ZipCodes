@@ -20,7 +20,7 @@ public class Controller {
     private IZipCodeService zipCodeService;
     @GetMapping("/")
     public String hello() {
-        return "hello this is the APi!";
+        return "Hello this is the ZipCodesAPI!";
     }
     @GetMapping(value = "/ZipCodes")
     public List<ZipCode> GetAll() {
